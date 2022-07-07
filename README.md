@@ -2,6 +2,7 @@ Opensea refresh metadata for entire collection on polygon using firefox
 
 Overview: This script is a custom browser extension on firefox. It will be executed when the url matches the criteria.
 
+
 Required: Mozilla firefox
 (Have not tried on chrome but its the same concept, just different workaround)
 
