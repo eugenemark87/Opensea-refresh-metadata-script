@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "modify-page",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["[link]/*"],
+      "js": ["page-eater.js"]
+    }
+  ],
+  "permissions": [
+  "*://developer.mozilla.org/*",
+  "webRequest"
+]
+
+}
