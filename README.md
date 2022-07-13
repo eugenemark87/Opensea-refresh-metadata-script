@@ -1,4 +1,6 @@
-Opensea refresh metadata for entire collection on polygon using firefox
+Opensea refresh metadata for entire NFT collection on polygon using firefox
+
+Tutorial link: https://www.youtube.com/watch?v=K-nQTvGVGTA
 
 Overview: This script is a custom browser extension on firefox. It will be executed when the url matches the criteria.
 
