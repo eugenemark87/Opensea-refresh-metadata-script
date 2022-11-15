@@ -1,10 +1,14 @@
-﻿//click refresh button
-document.getElementsByClassName('sc-1xf18x6-0 sc-glfma3-0 hiIVBZ gyCmAw sc-1skvztv-0 fPnOUC')[0].click();
-
-
-//this code will execute after 2 second (2000 milliseconds)
+﻿// Click "more options" button
 setTimeout(function() {
+    document.getElementsByClassName('sc-29427738-0 sc-65824775-0 nFISH feLpIY sc-9a637e94-1 kSESLX sc-b193fe69-1 cZCRsp')[2].click();
+}, 500);
 
-//navigate to the next url
-window.location.href = "[link]" + (parseInt(window.location.href.split("/").pop()) + 1);
+// Click "Refresh Metdata" option
+setTimeout(function() {
+    document.getElementsByClassName('sc-b267fe84-0 cRVARX sc-29427738-0 sc-630fc9ab-0 sc-d03d110-0 bBUaNU jSPhMX jveAwS')[0].click();
+}, 1000);
+
+// Navigate to the next url
+setTimeout(function() {
+    window.location.href = "[link]" + (parseInt(window.location.href.split("/").pop()) + 1);
 }, 2000);
